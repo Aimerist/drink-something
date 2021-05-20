@@ -1,5 +1,5 @@
 
-# Drink Something
+# Drink Something 👉 [DEMO](https://aimer-ist.github.io/drink-something/dist/#/)
 
 ![](https://i.imgur.com/q5CR2XW.png)
 
