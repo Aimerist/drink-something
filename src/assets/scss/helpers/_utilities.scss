@@ -1,0 +1,22 @@
+.text{
+  &-center {
+    text-align: center;
+  }
+  &-left {
+    text-align: left;
+  }
+}
+
+// 字體顏色
+@each $key, $val in $colors {
+  .text-#{$key} {
+    color: $val;
+  }
+};
+
+// 背景顏色
+@each $key, $val in $colors {
+  .bg-#{$key} {
+    background-color: $val;
+  }
+};

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  color: $base-font-color;
+  line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+@function font-size($lv: 0) {
+  @return ($base-font-size + $space * $lv) / $base-font-size * 1rem;;
+}
+h1, .h1 { font-size: font-size(2.5); }
+h2, .h2 { font-size: font-size(2); }
+h3, .h3 { font-size: font-size(1.75); }
+h4, .h4 { font-size: font-size(1.5); }
+h5, .h5 { font-size: font-size(1.25); }
+h6, .h6 { font-size: font-size(1); }
+
+a,
+button {
+  transition: all 0.5s;
+}
+i {
+  vertical-align: middle;
+}
+
+.container  {
+  margin: 0 auto;
+  padding: 0 3rem;
+}

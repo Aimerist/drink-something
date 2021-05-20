@@ -1,0 +1,36 @@
+$base-font-size: 16px;
+$base-font-family: 'Roboto', 'Noto Sans TC', Arial, sans-serif;
+$base-font-color: #2c3e50;
+
+$fontWeights: (
+	regular: 400,
+	bold: 700,
+	bolder: 900,
+);
+
+$primary: #B69418;
+$secondary: #d85657;
+$light: #e9ecef;
+$white: #fff;
+$dark: #343a40;
+$black: #000;
+
+$colors: (
+  primary: #B69418,
+  secondary: #d85657,
+	light: #e9ecef,
+  white: #fff,
+  dark: #343a40,
+	black: #000,
+);
+
+$direction: (
+	t: top,
+	b: bottom,
+	r: right,
+	l: left,
+	x: x,
+	y: y,
+);
+
+$space: 4px;
